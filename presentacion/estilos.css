@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #FFFFFF;
+}
+
+/*@media screen and (max-width: 800px) {
+    .navbar {
+        font-size: 50px;
+    }
+}*/
+
+/*estilos pantalla home*/
+
+.btnMargen {
+    margin: 15px;
+}
+
+.navBarMargen{
+    margin-bottom: 30px;
+}
+
+.oculatar {
+    display:none;
+}
+
+.separar {
+    margin-right: 40px;
+}
+
+.card {
+    border: solid 1px transparent;
+    transition: all .3s ease;
+}
+
+
+.card:hover {
+    cursor: pointer;
+    border: solid 1px #000;
+    box-shadow: 8px 8px 12px #000;
+}
+
+    .card:hover .button {
+        visibility:visible;
+    }
+
+
+    .card .button {
+        visibility: hidden;
+        transition: all .1s ease;
+    }
+
+.card:hover button {
+  visibility:visible;
+}
+
+

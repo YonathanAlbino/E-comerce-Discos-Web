@@ -1,0 +1,114 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  
+}
+
+body {
+    background: linear-gradient(45deg,red,blue,green,black);
+    background-size: 400% 400%;
+    animation: cambiar 10s ease-in-out infinite;
+}
+
+
+
+.contenedor{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.form-registro {
+    border-radius: 5px;
+    width: 420px;
+    background-color: #16191c;
+    padding: 30px;
+    /*margin: auto;*/
+    /*margin-top: 100px;*/
+    font-family: 'League Spartan', sans-serif;
+    color:white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.text-box {
+    width: 100%;
+    background-color: #16191c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    color:white;
+}
+
+.form-registro p{
+    height:40px;
+    text-align:center;
+    font-size: 18px;
+    line-height:40px;
+    
+}
+
+.form-registro a{
+    color:white;
+    text-decoration:none;
+}
+
+.form-registro a:hover {
+    text-decoration: underline;
+}
+
+.form-registro .boton {
+    border-radius: 5px;
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  
+}
+
+    .form-registro .boton:hover {
+        cursor: pointer;
+    }
+
+
+    @keyframes cambiar {
+        0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media screen and (max-width: 400px)  {
+    .contenedor .form-registro .text-box{
+       font-size: 22px; 
+    }
+
+    .contenedor .form-registro  p {
+        font-size: 22px;
+    }
+
+    .contenedor .form-registro .boton {
+        font-size: 20px;
+    }
+
+}

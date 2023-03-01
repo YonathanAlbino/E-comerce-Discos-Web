@@ -1,0 +1,36 @@
+﻿body {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--ligth);
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --ligth: #ffffff;
+}
+
+.bg-dark-x {
+    background-color: var(--darck-x);
+}
+
+.form-control, btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-1 {
+  background-image: url('imagenes/carrusel1.jpg');
+  background-size: cover;
+  background-position:center;
+}
+
+.img-2 {
+    background-image: url('imagenes/carrusel2.jpg');
+    background-size: cover;
+    background-position: center;
+}

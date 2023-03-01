@@ -1,0 +1,54 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;600;700&display=swap');
+
+body {
+    background-color: #F1F1F1;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.datosCuenta {
+    margin-top: 60px;
+}
+
+    .datosCuenta .titulo {
+        font-weight: 700;
+    }
+
+.datosCuenta h1{
+    font-size:22px;
+}
+
+.datosCuenta h2 {
+    font-size:18px;
+}
+
+    .datosCuenta h3 {
+        font-size: 18px;
+    }
+
+.tituloGeneral {
+    text-align: center;
+}
+
+.txtDatosCuenta .textBox {
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.datosCuenta .margen-boton {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*.tituloImagen {
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+*/
+
+.datosCuenta .imagenPerfil {
+    font-weight: 700;
+    margin-top: 8rem;
+}
+
